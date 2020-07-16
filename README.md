@@ -22,18 +22,21 @@ ReadMe will update.
 
 ### 3、generate your own skeleton-based dataset:
 
-       1. **python 1video_to_image.py** to get frames from videos
-       2. split dun frames into 5 parts **python split5.py**
+   1. python 1video_to_image.py 
+      to get frames from videos
+   2. split dun frames into 5 parts 
+      python split5.py
     3. cd simple-HRNet, 
         1. **python process_by_hrnet1-5** to generate json files from frames using hrnet(parallel). 
-        2. **python generate_label**, **python kinetic_gendata.py** to generate kinetic format custom dataset
+        2. **python generate_label**, 
+           **python kinetic_gendata.py** to generate kinetic format custom dataset
 
 ### 4、training MSG3D and get pytorch model
-    code here:https://github.com/kenziyuliu/MS-G3D
+   code here:https://github.com/kenziyuliu/MS-G3D
 
 ### 5、convert torch model to onnx model using python torch2onnx.py
 
-### 6、using msg3dv2.14 onnx models in Demo/onnx_models/ to classify
+### 6、using msg3d onnx models in Demo/onnx_models/ to classify
 
 ### 7、run demo2D.sh and result in Demo/result
 
