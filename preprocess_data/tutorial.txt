@@ -1,0 +1,5 @@
+1. video_to_image.py : split every video to images, sample less than 1000 images , saved in datatype/new_video_folder_name  
+2. cd simpleHRNet ; run process_by_hrnet.py, save results to xxx.json in coco format
+3. json_to_cvs , samples from xxx.json , write to xxx.csv, copy the slected sample to one folder
+4. upload the samples to  oss
+5. gennerate_url_anno.py replace the name of each sample to the url index in oss

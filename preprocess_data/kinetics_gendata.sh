@@ -1,0 +1,1 @@
+python3 kinetics_gendata.py --data_path '/6T-3/fengyu/output' --out_folder '/6T-3/fengyu/output/ntu2D'

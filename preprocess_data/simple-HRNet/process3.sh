@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES="0" python process_by_hrnet3.py
